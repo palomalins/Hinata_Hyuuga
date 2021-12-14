@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Raleway & display = swap');
 
 *{
     margin: 0;
@@ -89,7 +90,6 @@ ul{
 .geral{
     height: 250vh;
     width: 74.03%;
-    background: rgb(145, 1, 202);
     display: flex;
 }
 
@@ -105,4 +105,21 @@ h1{
 .geral-paragraf{
     width: 96%;
     margin-top: 45vh;
+    color: rgb(213, 211, 214);
+}
+
+.paragraf{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 12px;
+    line-height: 19px;
+    margin-left: 10px;
+}
+
+.icon{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 34%;
 }
