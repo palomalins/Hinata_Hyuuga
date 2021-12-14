@@ -86,12 +86,23 @@ ul{
     background-color: #bf9cc7;
 }
 
+.geral{
+    height: 250vh;
+    width: 74.03%;
+    background: rgb(145, 1, 202);
+    display: flex;
+}
+
 h1{
     color: #fff;
     font-family: 'Gwendolyn', cursive;
     position: absolute;
     margin-top: 22vh;
-    font-size: 60px;
-    margin-left: 22%;
-    
+    margin-left: 24%;
+    font-size: 60px; 
+}
+
+.geral-paragraf{
+    width: 96%;
+    margin-top: 45vh;
 }
