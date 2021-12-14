@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 400vh;
+    background: #9A61E8;
+}
+
+header{
+    position: fixed;
+    height: 20vh;
+    width: 100%;
+    background-color: #343959;
+    z-index: 10;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.lirio{
+    width: 180px;
+    height: 130px;
+}
+
+ul{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.list{
+    color:rgb(255, 255, 255);
+    font-family: 'Gwendolyn', cursive;
+    font-size: 35px;
+    transition: 1s;
+}
+
+.list:hover{
+    cursor: pointer;
+    color: #9A61E8;
+}
+
+.family{
+    width: 350px;
+    height: 1200px;
+    position: static;
+    margin-left: 74.03%;
+    position: absolute;
+    margin-top: 20vh;
+    background: #CABCCD;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.relatives{
+    width: 240px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 50%;
+    transition: 2s;
+}
+
+.paragraf-relatives{
+    font-family: 'Corinthia', cursive;
+    font-size: 32px;
+    color: #1C1C1C;
+}
+
+.relatives:hover{
+    cursor: pointer;
+    background-color: #bf9cc7;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Gwendolyn', cursive;
+    position: absolute;
+    margin-top: 22vh;
+    font-size: 60px;
+    margin-left: 22%;
+    
+}
